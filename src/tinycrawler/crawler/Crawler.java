@@ -10,16 +10,12 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Collections;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.document.Document;
 import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
@@ -42,13 +38,12 @@ public class Crawler {
     private final boolean followRedirect;
     private final int maxFollowRedirect;
     private final String userAgent;
+    private final int maxCrawlDepth;
 
-    private URIQueue uriQueue;
-    private BlockingQueue<Document> docQueue;
+    private TaskQueue taskQueue;
     private IndexWriter indexWriter;
     private ExecutorService threadPool;
     private DocumentFetcher documentFetcher;
-
 
     //
     // Packge private constructor.
@@ -56,7 +51,8 @@ public class Crawler {
     //
      Crawler(File indexDirectory, int threadCount, int totalMaximumConnections,
              int totalConnectionsPerHost, boolean followRedirect,
-             int maxFollowRedirect,String userAgent) {
+             int maxFollowRedirect,String userAgent,
+             int maxCrawlDepth) {
 
        this.indexDirectory = indexDirectory;
        this.threadCount = threadCount;
@@ -65,6 +61,10 @@ public class Crawler {
        this.followRedirect = followRedirect;
        this.maxFollowRedirect = maxFollowRedirect;
        this.userAgent = userAgent;
+       this.maxCrawlDepth = maxCrawlDepth;
+
+       // setup the task queue
+       taskQueue = new TaskQueue();
     }
 
       //
@@ -80,14 +80,12 @@ public class Crawler {
         // setup all the parameters and init the thread pool.
         initialize();
         // add the first URI to crawl and, start crawling.
-        getUriQueue().addAll(Collections.singletonList(uri));
+        getTaskQueue().addDownloadTasks(Collections.singletonList(new Task(uri,0)));
         startCrawling();
     }
     
     private void initialize() {
         indexWriter = prepareIndexWriter();
-        uriQueue = new URIQueue();
-        docQueue = new LinkedBlockingQueue<Document>();
         threadPool = spawnDocumentProcessors();
         documentFetcher = new DocumentFetcher(this , prepareHTTPClient());
     }
@@ -154,16 +152,16 @@ public class Crawler {
     }
 
     private void startCrawling() {
-        documentFetcher.fetch();
-
-        threadPool.shutdown();
+        documentFetcher.startFeatching();
+        threadPool.shutdownNow();
         try {
-            threadPool.awaitTermination(2, TimeUnit.MINUTES);
+            threadPool.awaitTermination(1, TimeUnit.MINUTES);
         } catch (InterruptedException ex) {
         }
 
         try {
-            getIndexWriter().close();
+            indexWriter.close();
+            logger.log(Level.INFO, "Index is closed.");
         } catch (CorruptIndexException ex) {
             logger.log(Level.SEVERE, "Failed closing the index. got{0}", ex.toString());
         } catch (IOException ex) {
@@ -182,22 +180,23 @@ public class Crawler {
     /**
      * @return the uriQueue
      */
-    URIQueue getUriQueue() {
-        return uriQueue;
+    TaskQueue getTaskQueue() {
+        return taskQueue;
     }
-
+  
+  
     
-    /**
-     * @return the docQueue
-     */
-    BlockingQueue<Document> getDocQueue() {
-        return docQueue;
-    }
-
     /**
      * @return the indexWriter
      */
     IndexWriter getIndexWriter() {
         return indexWriter;
+
+    }
+    /**
+     * @return max crawl depth
+     */
+    int getMaxCrawlDepth() {
+        return maxCrawlDepth;
     }
 }

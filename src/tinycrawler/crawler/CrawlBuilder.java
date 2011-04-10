@@ -12,7 +12,7 @@ import java.io.File;
  */
 public class CrawlBuilder {
 
-    // Configurable paramters.
+    // Configurable paramters set to defaults.
     private File indexDirectory = new File("./");
     private int threadCount = 2;
     private int totalMaximumConnections = 100;
@@ -20,6 +20,7 @@ public class CrawlBuilder {
     private boolean setFollowRedirect = true;
     private int maxFollowRedirect = 2;
     private String userAgent = "TinyCrawler";
+    private int maxCrawlDepth = Integer.MAX_VALUE - 1;
 
     public Crawler build() {
         return new Crawler(indexDirectory,
@@ -28,7 +29,8 @@ public class CrawlBuilder {
                 totalConnectionsPerHost,
                 setFollowRedirect,
                 maxFollowRedirect,
-                userAgent);
+                userAgent,
+                maxCrawlDepth);
     }
 
     /**
@@ -160,4 +162,23 @@ public class CrawlBuilder {
     public String getUserAgent() {
         return userAgent;
     }
+
+    /**
+     * @return the maxCrawlDepth
+     */
+    public int getMaxCrawlDepth() {
+        return maxCrawlDepth;
+    }
+
+    /**
+     * @param maxCrawlDepth the maxCrawlDepth to set
+     */
+    public CrawlBuilder setMaxCrawlDepth(int maxCrawlDepth) {
+        if (maxCrawlDepth < 0) {
+            throw new IllegalArgumentException("maxCrawlDepth should be non negative");
+        }
+        this.maxCrawlDepth = maxCrawlDepth;
+        return this;
+    }
+
 }

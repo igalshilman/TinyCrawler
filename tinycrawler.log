@@ -1,0 +1,2103 @@
+Apr 10, 2011 7:06:01 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher$RequestCallBack onCompleted
+INFO: Adding document to docQueue http://en.wikipedia.org/wiki/Main_Page
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentProcessor run
+INFO: Document found [http://en.wikipedia.org/]
+
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/#mw-head
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/#p-search
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Free_content
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Encyclopedia
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Introduction
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:Statistics
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/English_language
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Arts
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Biography
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Geography
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:History
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Mathematics
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Science
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Society
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Technology
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Contents/Portals
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Populous:_The_Beginning
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Strategy_video_game
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/God_game
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Populous_(series)
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Video_game
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Bullfrog_Productions
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/PlayStation_(console)
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/PlayStation_Network
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Shamanism
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Solar_system
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Magic_(fantasy)
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/3D_computer_graphics
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Real_time_strategy
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Pithole,_Pennsylvania
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/The_Pit_and_the_Pendulum_(1961_film)
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Phan_Dinh_Phung
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/April_2011
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch https://lists.wikimedia.org/mailman/listinfo/daily-article-l
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Featured_articles
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Recent_additions
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/File:James_Addison_Reavis_in_prison_clothes.jpg
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Federal_government_of_the_United_States
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Baron_of_Arizona
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Mexico
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Spain
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Halabiye_Dam
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Euphrates
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Syria
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Roman_Empire
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Byzantine_Empire
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Halabiye
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Zalabiye
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/West_Weber,_Utah
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Great_Salt_Lake
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ogden,_Utah
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Alexander_Gradsky
+Apr 10, 2011 7:06:05 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Russia
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Rock_and_roll
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Blockade_of_Wonsan
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Korean_War
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Blockade
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/David_E._Davis
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Emergency_medical_technician
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Nasal_cartilages
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Justine_Thornton
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Labour_Party_(UK)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ed_Miliband
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Hardwicke_House
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Your_first_article
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Template_talk:Did_you_know
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/File:Ai_Weiwei_cropped.jpg
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Sydney_Lumet
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Alphen_aan_den_Rijn_shopping_mall_shooting
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Alphen_aan_den_Rijn
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Netherlands
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/2011_Syrian_protests#8_April
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Daraa
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/People%27s_Republic_of_China
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ai_Weiwei
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/India
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Anna_Hazare
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Hunger_strike
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/2011_Indian_anti-corruption_movement
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Corruption_in_India
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Rio_de_Janeiro_school_shooting
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Rio_de_Janeiro
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Brazil
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikinews.org/wiki/Main_Page
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Deaths_in_2011
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Current_events
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/April_10
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/File:Ante_Paveli%C4%87.jpg
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1710
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Statute_of_Anne
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Copyright
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Kingdom_of_Great_Britain
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1815
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Mount_Tambora
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Indonesia
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Volcano
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Year_Without_a_Summer
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1868
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/British_Empire
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1868_Expedition_to_Abyssinia
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ethiopian_Empire
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Tewodros_II_of_Ethiopia
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1941
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/World_War_II
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Independent_State_of_Croatia
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Usta%C5%A1e
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ante_Paveli%C4%87
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Puppet_state
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Axis_powers
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/1992
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Nagorno-Karabakh_War
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Armenians
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Maraga_Massacre
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Maraga,_Azerbaijan
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Azerbaijan
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/2010
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Tupolev_Tu-154
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/President_of_Poland
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Lech_Kaczy%C5%84ski
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/2010_Polish_Air_Force_Tu-154_crash
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Smolensk_(air_base)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Smolensk
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/April_9
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/April_11
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/April
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/List_of_historical_anniversaries
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/2011
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Coordinated_Universal_Time
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Main_Page&action=purge
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/File:Wakehurst_Place_Mansion_1,_West_Sussex_-_Aug_2009.jpg
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wakehurst_Place
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Ardingly
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/West_Sussex
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/England
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Gentry
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Gerald_Loder,_1st_Baron_Wakehurst
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Garden
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/National_Trust
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/User:Diliff
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Template:POTD/2011-04-09
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Template:POTD/2011-04-08
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Template:POTD/2011-04-07
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day/April_2011
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Featured_pictures
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Help_desk
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Village_pump
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Community_portal
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:News
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Local_Embassy
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikimedia_Foundation
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://wikimediafoundation.org/wiki/Our_projects
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://commons.wikimedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://commons.wikimedia.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikinews.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikinews.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wiktionary.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wiktionary.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikiquote.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikiquote.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikibooks.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikibooks.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikisource.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikisource.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://species.wikimedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://species.wikimedia.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikiversity.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikiversity.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://meta.wikimedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://meta.wikimedia.org/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://de.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://es.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://fr.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://it.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://nl.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ja.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://pl.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://pt.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ru.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://id.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ca.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://cs.wikipedia.org/wiki/
+Apr 10, 2011 7:06:06 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ko.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://hu.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://no.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ro.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://fi.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://sv.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://vi.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://tr.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://uk.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://zh.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ar.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://ms.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://bg.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://da.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://eo.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://he.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://fa.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://lt.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://sk.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://sl.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://sr.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://et.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://el.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://simple.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://eu.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://gl.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://hr.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://nn.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://th.wikipedia.org/wiki/
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://meta.wikimedia.org/wiki/List_of_Wikipedias
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Main_Page
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main_Page
+Apr 10, 2011 7:06:07 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Talk:Main_Page
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/#
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Main_Page&action=edit
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Main_Page&action=history
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Contents
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Portal:Featured_content
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:Random
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://wikimediafoundation.org/wiki/Special:Landingcheck?landing_page=WMFJA085&language=en&utm_source=donate&utm_medium=sidebar&utm_campaign=20101204SB002
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Help:Contents
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:About
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:RecentChanges
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:WhatLinksHere/Main_Page
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Main_Page
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Upload
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Special:SpecialPages
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Main_Page&oldid=418009832
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Special:Cite&page=Main_Page&id=418009832
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Main+Page
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=render_article&arttitle=Main+Page&oldid=418009832&writer=rl
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/w/index.php?title=Main_Page&printable=yes
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://creativecommons.org/licenses/by-sa/3.0/
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://wikimediafoundation.org/wiki/Terms_of_Use
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://www.wikimediafoundation.org/
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://wikimediafoundation.org/wiki/Privacy_policy
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://wikimediafoundation.org/
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+INFO: Trying to fetch http://www.mediawiki.org/
+Apr 10, 2011 7:06:08 PM tinycrawler.crawler.DocumentFetcher startFeatching
+SEVERE: null
+java.io.IOException: Too many connections 100
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:124)
+	at com.ning.http.client.providers.jdk.JDKAsyncHttpProvider.execute(JDKAsyncHttpProvider.java:116)
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476)
+	at com.ning.http.client.AsyncHttpClient$BoundRequestBuilder.execute(AsyncHttpClient.java:227)
+	at tinycrawler.crawler.DocumentFetcher.startFeatching(DocumentFetcher.java:111)
+	at tinycrawler.crawler.Crawler.startCrawling(Crawler.java:163)
+	at tinycrawler.crawler.Crawler.crawl(Crawler.java:92)
+	at tinycrawler.Main.main(Main.java:57)

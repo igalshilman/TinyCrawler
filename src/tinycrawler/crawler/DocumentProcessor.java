@@ -9,8 +9,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
@@ -29,39 +27,36 @@ import org.apache.lucene.index.IndexWriter;
 public class DocumentProcessor implements Runnable {
     private static final Logger logger = Logger.getLogger("TinyCrawler");
     private final Pattern NON_EMPTY_PAT = Pattern.compile("(\\w)+");
-    private final BlockingQueue<Document> docq;
-    private final URIQueue uriq;
+    private final TaskQueue taskQueue;
     private final IndexWriter indexWriter;
+    private final int maxCrawlDepth;
 
     public DocumentProcessor(Crawler crawler) {
-        this.docq = crawler.getDocQueue();
-        this.uriq = crawler.getUriQueue();
+        this.taskQueue = crawler.getTaskQueue();
         this.indexWriter = crawler.getIndexWriter();
+        this.maxCrawlDepth = crawler.getMaxCrawlDepth();
     }
 
     public void run() {
         for (;;) {
-            Document doc = null;
+            Task task = null;
             try {
-                doc = docq.poll(1, TimeUnit.MINUTES);
-
+                task = taskQueue.takeProcessingTask();
             } catch (InterruptedException ex) {
                logger.log(Level.INFO,"DocumentProcessor is done.");
                return ;
             }
-            if (doc != null) {
-                logger.log(Level.INFO, "Document found [{0}]\n", doc.get("uri"));
-                process(doc);
-            }
+            logger.log(Level.INFO, "Document found [{0}]\n", task.getURI());
+            process(task);
         }
     }
 
-    public void process(Document doc) {
-        final String baseURI = doc.get("uri");
-        final String html = doc.get("html-content");
+    public void process(Task task) {
+        final String baseURI = task.getURI().toString();
+        final String html = task.getHtmlContent();
 
         // We don't need the raw html content anymore.
-        doc.removeField("html-content");
+        task.setHtmlContent("");
 
         // Parse the HTML from this document and convert it to DOM tree.
         org.jsoup.nodes.Document root = Jsoup.parse(html, baseURI);
@@ -75,6 +70,8 @@ public class DocumentProcessor implements Runnable {
 
         // Extract plain text out of the html.
         String plainText = extractPlainText(root);
+        Document doc = task.createDocument();
+        doc.add(new Field("uri", baseURI , Field.Store.YES, Field.Index.NOT_ANALYZED));
         doc.add(new Field("content", plainText, Field.Store.YES, Field.Index.ANALYZED));
 
         try {
@@ -85,9 +82,13 @@ public class DocumentProcessor implements Runnable {
             logger.log(Level.SEVERE, null, ex);
         }
 
-        // add the new links back to the uriQueue.
-        List<URI> outLinks = extractURIs(root);
-        uriq.addAll(outLinks);
+        if (task.getDepth() < maxCrawlDepth) {
+            // add the new links back to the uriQueue.
+            List<Task> newTasks = extractURIs(root, task.getDepth() + 1);
+            taskQueue.addDownloadTasks(newTasks);
+        }
+        
+        taskQueue.decrementPendingProcessing();
     }
 
     public String extractPlainText(org.jsoup.nodes.Document root) {
@@ -102,10 +103,10 @@ public class DocumentProcessor implements Runnable {
         return sb.toString();
     }
 
-    private ArrayList<URI> extractURIs(org.jsoup.nodes.Document root) {
+    private ArrayList<Task> extractURIs(org.jsoup.nodes.Document root, int depth) {
         // Transform the links in this doc to a list of URIs.
         Elements links = root.select("a[href]");
-        ArrayList<URI> newLinks = new ArrayList<URI>(links.size());
+        ArrayList<Task> newLinks = new ArrayList<Task>(links.size());
 
         for (Element link : links) {
             try {
@@ -113,7 +114,7 @@ public class DocumentProcessor implements Runnable {
                 if (url.equals("")) {
                     continue;
                 }
-                newLinks.add(new URI(url));
+                newLinks.add(new Task(new URI(url),depth));
             } catch (URISyntaxException ex) {
                 // silently drop bad links.
             }

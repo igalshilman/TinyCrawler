@@ -49,7 +49,8 @@ public class Main {
                 setMaxFollowRedirect(2).
                 setThreadCount(2).
                 setTotalConnectionsPerHost(4).
-                setTotalMaximumConnections(100);
+                setTotalMaximumConnections(100).
+                setMaxCrawlDepth(2);
 
         // lunch it!
         Crawler crawler = builder.build();
