@@ -33,13 +33,10 @@ public class DocumentProcessor implements Runnable {
     private final URIQueue uriq;
     private final IndexWriter indexWriter;
 
-    public DocumentProcessor(BlockingQueue<Document> documentQueue,
-            URIQueue uriQueue,
-            IndexWriter indexWriter) {
-
-        this.docq = documentQueue;
-        this.uriq = uriQueue;
-        this.indexWriter = indexWriter;
+    public DocumentProcessor(Crawler crawler) {
+        this.docq = crawler.getDocQueue();
+        this.uriq = crawler.getUriQueue();
+        this.indexWriter = crawler.getIndexWriter();
     }
 
     public void run() {

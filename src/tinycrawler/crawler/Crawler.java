@@ -2,7 +2,6 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package tinycrawler.crawler;
 
 import com.ning.http.client.AsyncHttpClientConfig;
@@ -35,71 +34,89 @@ import org.apache.lucene.store.NIOFSDirectory;
 public class Crawler {
     private static final Logger logger = Logger.getLogger("TinyCrawler");
 
-    public Crawler() {
-        
+    // Configurable paramters vis builder, but are final here.
+    private final File indexDirectory;
+    private final int threadCount;
+    private final int totalMaximumConnections;
+    private final int totalConnectionsPerHost;
+    private final boolean followRedirect;
+    private final int maxFollowRedirect;
+    private final String userAgent;
+
+    private URIQueue uriQueue;
+    private BlockingQueue<Document> docQueue;
+    private IndexWriter indexWriter;
+    private ExecutorService threadPool;
+    private DocumentFetcher documentFetcher;
+
+
+    //
+    // Packge private constructor.
+    // Inorder to get a Crawler instance we need to use the builder.
+    //
+     Crawler(File indexDirectory, int threadCount, int totalMaximumConnections,
+             int totalConnectionsPerHost, boolean followRedirect,
+             int maxFollowRedirect,String userAgent) {
+
+       this.indexDirectory = indexDirectory;
+       this.threadCount = threadCount;
+       this.totalMaximumConnections = totalMaximumConnections;
+       this.totalConnectionsPerHost = totalConnectionsPerHost;
+       this.followRedirect = followRedirect;
+       this.maxFollowRedirect = maxFollowRedirect;
+       this.userAgent = userAgent;
     }
 
-     public boolean crawl(String baseURI) throws URISyntaxException {
-        URIQueue uriQueue = new URIQueue();
-        BlockingQueue<Document> docQueue = new LinkedBlockingQueue<Document>();
+      //
 
-        IndexWriter indexWriter = prepareIndexWriter();
-        if (indexWriter == null) {
-            System.err.println("Failed preparing IndexWriter, aborting.");
-            return false;
-        }
-
-        ExecutorService threadPool =
-                spawnDocumentProcessors(2, docQueue, uriQueue, indexWriter);
-
-        DocumentFetcher documentFetcher =
-                new DocumentFetcher(docQueue, uriQueue, asyncHttpClient());
-
-        uriQueue.addAll(Collections.singletonList(new URI(baseURI)));
-
-        documentFetcher.fetch();
-
-        threadPool.shutdown();
-        try {
-            threadPool.awaitTermination(2, TimeUnit.MINUTES);
-        } catch (InterruptedException ex) {
-
-        }
-
-        try {
-            indexWriter.close();
-        } catch (CorruptIndexException ex) {
-            logger.log(Level.SEVERE, "Failed closing the index. got{0}", ex.toString());
-        } catch (IOException ex) {
-            logger.log(Level.SEVERE,"Failed closing the index. {0}", ex.toString());
-        }
-
-        logger.log(Level.FINE,"done.");
-        return true;
+    /**
+     * crawl - this function will start the crawling. A call to this function will block,
+     * the currently executing thread until the crawling will end.
+     * @param baseURI the starting URI.
+     * @throws URISyntaxException incase this is malformed URI.
+     */
+    public void crawl(String baseURI) throws URISyntaxException {
+        final URI uri = new URI(baseURI);
+        // setup all the parameters and init the thread pool.
+        initialize();
+        // add the first URI to crawl and, start crawling.
+        getUriQueue().addAll(Collections.singletonList(uri));
+        startCrawling();
     }
-
+    
+    private void initialize() {
+        indexWriter = prepareIndexWriter();
+        uriQueue = new URIQueue();
+        docQueue = new LinkedBlockingQueue<Document>();
+        threadPool = spawnDocumentProcessors();
+        documentFetcher = new DocumentFetcher(this , prepareHTTPClient());
+    }
+    
+    
     /**
      * PrepareIndexWriter - Initialize an Index to store the crawled documents.
      * @return an instance of IndexWriter.
+     * @throws IllegalArgumentException If for some reason the we are unable to prepare the index.
      */
     private IndexWriter prepareIndexWriter() {
-        File indexDir = new File("./index");
         StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_31);
         IndexWriterConfig indexConfig = new IndexWriterConfig(Version.LUCENE_31, analyzer);
 
         IndexWriter writer = null;
         try {
-            Directory fs = new NIOFSDirectory(indexDir);
+            Directory fs = new NIOFSDirectory(this.indexDirectory);
             writer = new IndexWriter(fs, indexConfig);
         } catch (IOException ex) {
             logger.log(Level.SEVERE, "Failed to create an IndexWriter. ");
+            throw new IllegalArgumentException("Could not initialize the index, please check the log.");
         }
+        
         return writer;
     }
 
     /**
      * spwanDocumentProcessors - Builds a DocumentProccessor workers and spawn
-     * them in a thred pool.
+     * them in a thread pool.
      *
      * @param workerCount The number of workers needed. (should usually be number of CPUs - 1).
      * @param docQueue The blocking queue that holds the documents to be processed.
@@ -109,32 +126,78 @@ public class Crawler {
      * @param writer    The IndexWriter that actually stores and index this documents.
      * @return an underlying thread pool that contains the workers.
      */
-    private ExecutorService spawnDocumentProcessors(int workerCount,
-            BlockingQueue<Document> docQueue,
-            URIQueue uriQueue,
-            IndexWriter writer) {
+    private ExecutorService spawnDocumentProcessors() {
+        final int n = threadCount;
+        ExecutorService es = Executors.newFixedThreadPool(n);
 
-        ExecutorService threadPool = Executors.newFixedThreadPool(workerCount);
-
-        for (int i = 0; i < workerCount; i++) {
-            threadPool.submit(new DocumentProcessor(docQueue, uriQueue, writer));
+        for (int i = 0; i < n; i++) {
+            es.submit(new DocumentProcessor(this));
         }
-        return threadPool;
+        return es;
     }
 
     /**
-     * asyncHttpClient this configures the behavior of the AsyncHTTPClient.
+     * prepareHTTPClient this configures the behavior of the AsyncHTTPClient.
      * @return an async-http-client configurable client.
      */
-    private AsyncHttpClientConfig asyncHttpClient() {
-        AsyncHttpClientConfig clientConfig = new AsyncHttpClientConfig.Builder().setMaximumConnectionsPerHost(4).
-                setMaximumConnectionsTotal(100).
-                setFollowRedirects(true).
-                setMaximumNumberOfRedirects(3).
-                setUserAgent("TinyCrawler").
+    private AsyncHttpClientConfig prepareHTTPClient() {
+        AsyncHttpClientConfig clientConfig = 
+                new AsyncHttpClientConfig.Builder().
+                setMaximumConnectionsPerHost(totalConnectionsPerHost).
+                setMaximumConnectionsTotal(totalMaximumConnections).
+                setFollowRedirects(followRedirect).
+                setMaximumNumberOfRedirects(maxFollowRedirect).
+                setUserAgent(userAgent).
                 build();
 
         return clientConfig;
     }
 
+    private void startCrawling() {
+        documentFetcher.fetch();
+
+        threadPool.shutdown();
+        try {
+            threadPool.awaitTermination(2, TimeUnit.MINUTES);
+        } catch (InterruptedException ex) {
+        }
+
+        try {
+            getIndexWriter().close();
+        } catch (CorruptIndexException ex) {
+            logger.log(Level.SEVERE, "Failed closing the index. got{0}", ex.toString());
+        } catch (IOException ex) {
+            logger.log(Level.SEVERE, "Failed closing the index. {0}", ex.toString());
+        }
+        logger.log(Level.FINE, "done.");
+    }
+
+    //
+    // This section, holds packge-private getters.
+    // They are used by DocumentProcessor, and DocumentFetcher only.
+    //
+    // <!> These Getters are THREAD SAFE.
+    //
+
+    /**
+     * @return the uriQueue
+     */
+    URIQueue getUriQueue() {
+        return uriQueue;
+    }
+
+    
+    /**
+     * @return the docQueue
+     */
+    BlockingQueue<Document> getDocQueue() {
+        return docQueue;
+    }
+
+    /**
+     * @return the indexWriter
+     */
+    IndexWriter getIndexWriter() {
+        return indexWriter;
+    }
 }

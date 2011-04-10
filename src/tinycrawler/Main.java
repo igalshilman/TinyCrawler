@@ -4,12 +4,15 @@
  */
 package tinycrawler;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 import tinycrawler.crawler.Crawler;
+import tinycrawler.crawler.CrawlBuilder;
 
 
 /**
@@ -17,7 +20,7 @@ import tinycrawler.crawler.Crawler;
  * @author igal
  */
 public class Main {
-    // Create an initialize the logger.
+    // Create and initialize the logger.
 
     private static final String LOG_FILENAME = "tinycrawler.log";
     private static final Logger logger = Logger.getLogger("TinyCrawler");
@@ -25,6 +28,7 @@ public class Main {
     static {
         try {
             FileHandler h = new FileHandler(LOG_FILENAME, false);
+            h.setFormatter(new SimpleFormatter());
             h.setLevel(Level.ALL);
             logger.addHandler(h);
 
@@ -36,7 +40,19 @@ public class Main {
     }
 
     public static void main(String[] args) throws URISyntaxException  {
-        Crawler crawler = new Crawler();
+        CrawlBuilder builder = new CrawlBuilder();
+
+        // Configure the crawler.
+        builder.
+                setIndexDirectory(new File("./index")).
+                setSetFollowRedirect(true).
+                setMaxFollowRedirect(2).
+                setThreadCount(2).
+                setTotalConnectionsPerHost(4).
+                setTotalMaximumConnections(100);
+
+        // lunch it!
+        Crawler crawler = builder.build();
         crawler.crawl("http://en.wikipedia.org/");
     }
 }

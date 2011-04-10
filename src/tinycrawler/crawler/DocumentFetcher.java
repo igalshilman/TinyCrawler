@@ -45,12 +45,9 @@ public class DocumentFetcher {
     private final URIQueue uriQueue;
     private final AsyncHttpClientConfig clientConfig;
 
-    public DocumentFetcher(BlockingQueue<Document> docQueues,
-            URIQueue uriQueue,
-            AsyncHttpClientConfig clientConfig) {
-
-        this.docQueue = docQueues;
-        this.uriQueue = uriQueue;
+    public DocumentFetcher(Crawler crawler, AsyncHttpClientConfig clientConfig) {
+        this.docQueue = crawler.getDocQueue();
+        this.uriQueue = crawler.getUriQueue();
         this.clientConfig = clientConfig;
     }
 
