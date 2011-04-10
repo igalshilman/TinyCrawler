@@ -5,6 +5,8 @@
 package tinycrawler.crawler;
 
 import com.ning.http.client.AsyncHttpClientConfig;
+import com.ning.http.client.extra.ThrottleRequestFilter;
+import com.ning.http.client.filter.RequestFilter;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
@@ -139,13 +141,16 @@ public class Crawler {
      * @return an async-http-client configurable client.
      */
     private AsyncHttpClientConfig prepareHTTPClient() {
+      //  RequestFilter throttle = new ThrottleRequestFilter(totalMaximumConnections);
         AsyncHttpClientConfig clientConfig = 
                 new AsyncHttpClientConfig.Builder().
                 setMaximumConnectionsPerHost(totalConnectionsPerHost).
                 setMaximumConnectionsTotal(totalMaximumConnections).
+                setAllowPoolingConnection(true).
                 setFollowRedirects(followRedirect).
                 setMaximumNumberOfRedirects(maxFollowRedirect).
                 setUserAgent(userAgent).
+        //        addRequestFilter(throttle).
                 build();
 
         return clientConfig;
@@ -184,8 +189,6 @@ public class Crawler {
         return taskQueue;
     }
   
-  
-    
     /**
      * @return the indexWriter
      */
@@ -198,5 +201,9 @@ public class Crawler {
      */
     int getMaxCrawlDepth() {
         return maxCrawlDepth;
+    }
+
+    int getTotalMaximumConnections() {
+        return totalMaximumConnections;
     }
 }

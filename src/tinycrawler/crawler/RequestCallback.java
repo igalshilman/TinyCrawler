@@ -24,15 +24,19 @@ class RequestCallback extends AsyncCompletionHandler<Boolean> {
         this.taskQueue = taskQueue;
     }
 
+    private void accountComplition() {
+        taskQueue.decrementPendingDownloads();
+    }
+
     @Override
     public void onThrowable(Throwable t) {
-        taskQueue.decrementPendingDownloads();
+        accountComplition();
         logger.log(Level.SEVERE, t.toString());
     }
 
     @Override
     public Boolean onCompleted(Response res) throws Exception {
-        taskQueue.decrementPendingDownloads();
+        accountComplition();
 
         if (res.hasResponseBody()) {
             task.setHtmlContent(res.getResponseBody());

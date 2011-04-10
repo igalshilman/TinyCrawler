@@ -11,7 +11,6 @@ import java.io.File;
  * @author igal
  */
 public class CrawlBuilder {
-
     // Configurable paramters set to defaults.
     private File indexDirectory = new File("./");
     private int threadCount = 2;
