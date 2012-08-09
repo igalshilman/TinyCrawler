@@ -21,102 +21,101 @@ import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
 
 /**
- *
  * @author igal
  */
 public class DocumentProcessor implements Runnable {
-    private static final Logger logger = Logger.getLogger("TinyCrawler");
-    private final Pattern NON_EMPTY_PAT = Pattern.compile("(\\w)+");
-    private final TaskQueue taskQueue;
-    private final IndexWriter indexWriter;
-    private final int maxCrawlDepth;
+  private static final Logger logger = Logger.getLogger("TinyCrawler");
+  private final Pattern NON_EMPTY_PAT = Pattern.compile("(\\w)+");
+  private final TaskQueue taskQueue;
+  private final IndexWriter indexWriter;
+  private final int maxCrawlDepth;
 
-    public DocumentProcessor(Crawler crawler) {
-        this.taskQueue = crawler.getTaskQueue();
-        this.indexWriter = crawler.getIndexWriter();
-        this.maxCrawlDepth = crawler.getMaxCrawlDepth();
+  public DocumentProcessor(Crawler crawler) {
+    this.taskQueue = crawler.getTaskQueue();
+    this.indexWriter = crawler.getIndexWriter();
+    this.maxCrawlDepth = crawler.getMaxCrawlDepth();
+  }
+
+  public void run() {
+    for (; ; ) {
+      Task task = null;
+      try {
+        task = taskQueue.takeProcessingTask();
+      } catch (InterruptedException ex) {
+        logger.info("DocumentProcessor is done.");
+        return;
+      }
+      logger.info("Document found " + task.getURI());
+      process(task);
+    }
+  }
+
+  public void process(Task task) {
+    final String baseURI = task.getURI().toString();
+    final String html = task.getHtmlContent();
+
+    // We don't need the raw html content anymore.
+    task.setHtmlContent("");
+
+    // Parse the HTML from this document and convert it to DOM tree.
+    org.jsoup.nodes.Document root = Jsoup.parse(html, baseURI);
+
+    // Here we have the DOM element of that page for our disposal.
+    // This is a good place to do whatever we want with it, such as:
+    // - build keyword histogram (for indexing)
+    // - serialize the page as DOM.
+    // - filtering, simularity check etc'.
+
+
+    // Extract plain text out of the html.
+    String plainText = extractPlainText(root);
+    Document doc = task.createDocument();
+    doc.add(new Field("uri", baseURI, Field.Store.YES, Field.Index.NOT_ANALYZED));
+    doc.add(new Field("content", plainText, Field.Store.YES, Field.Index.ANALYZED));
+
+    try {
+      indexWriter.addDocument(doc);
+    } catch (Throwable ex) {
+      logger.error("failed adding a document to the index", ex);
     }
 
-    public void run() {
-        for (;;) {
-            Task task = null;
-            try {
-                task = taskQueue.takeProcessingTask();
-            } catch (InterruptedException ex) {
-               logger.info("DocumentProcessor is done.");
-               return ;
-            }
-            logger.info("Document found " + task.getURI());
-            process(task);
-        }
+    if (task.getDepth() < maxCrawlDepth) {
+      // add the new links back to the uriQueue.
+      List<Task> newTasks = extractURIs(root, task.getDepth() + 1);
+      taskQueue.addDownloadTasks(newTasks);
     }
 
-    public void process(Task task) {
-        final String baseURI = task.getURI().toString();
-        final String html = task.getHtmlContent();
+    taskQueue.decrementPendingProcessing();
+  }
 
-        // We don't need the raw html content anymore.
-        task.setHtmlContent("");
+  public String extractPlainText(org.jsoup.nodes.Document root) {
+    Elements textElements = root.getElementsMatchingOwnText(NON_EMPTY_PAT);
+    StringBuilder sb = new StringBuilder();
 
-        // Parse the HTML from this document and convert it to DOM tree.
-        org.jsoup.nodes.Document root = Jsoup.parse(html, baseURI);
-
-        // Here we have the DOM element of that page for our disposal.
-        // This is a good place to do whatever we want with it, such as:
-        // - build keyword histogram (for indexing)
-        // - serialize the page as DOM.
-        // - filtering, simularity check etc'.
-      
-
-        // Extract plain text out of the html.
-        String plainText = extractPlainText(root);
-        Document doc = task.createDocument();
-        doc.add(new Field("uri", baseURI , Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("content", plainText, Field.Store.YES, Field.Index.ANALYZED));
-
-        try {
-            indexWriter.addDocument(doc);
-        } catch (Throwable ex) {
-            logger.error("failed adding a document to the index", ex);
-        }
-
-        if (task.getDepth() < maxCrawlDepth) {
-            // add the new links back to the uriQueue.
-            List<Task> newTasks = extractURIs(root, task.getDepth() + 1);
-            taskQueue.addDownloadTasks(newTasks);
-        }
-        
-        taskQueue.decrementPendingProcessing();
+    for (Element e : textElements) {
+      sb.append(e.ownText());
+      sb.append(" ");
     }
 
-    public String extractPlainText(org.jsoup.nodes.Document root) {
-        Elements textElements = root.getElementsMatchingOwnText(NON_EMPTY_PAT);
-        StringBuilder sb = new StringBuilder();
+    return sb.toString();
+  }
 
-        for (Element e : textElements) {
-            sb.append(e.ownText());
-            sb.append(" ");
+  private ArrayList<Task> extractURIs(org.jsoup.nodes.Document root, int depth) {
+    // Transform the links in this doc to a list of URIs.
+    Elements links = root.select("a[href]");
+    ArrayList<Task> newLinks = new ArrayList<Task>(links.size());
+
+    for (Element link : links) {
+      try {
+        String url = link.absUrl("href").trim();
+        if (url.equals("")) {
+          continue;
         }
-
-        return sb.toString();
+        newLinks.add(new Task(new URI(url), depth));
+      } catch (URISyntaxException ex) {
+        // silently drop bad links.
+      }
     }
-
-    private ArrayList<Task> extractURIs(org.jsoup.nodes.Document root, int depth) {
-        // Transform the links in this doc to a list of URIs.
-        Elements links = root.select("a[href]");
-        ArrayList<Task> newLinks = new ArrayList<Task>(links.size());
-
-        for (Element link : links) {
-            try {
-                String url = link.absUrl("href").trim();
-                if (url.equals("")) {
-                    continue;
-                }
-                newLinks.add(new Task(new URI(url),depth));
-            } catch (URISyntaxException ex) {
-                // silently drop bad links.
-            }
-        }
-        return newLinks;
-    }
+    return newLinks;
+  }
 }
