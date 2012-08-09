@@ -28,7 +28,7 @@ public class Main {
                 setThreadCount(2).
                 setTotalConnectionsPerHost(4).
                 setTotalMaximumConnections(100).
-                setMaxCrawlDepth(1);
+                setMaxCrawlDepth(2);
 
         // lunch it!
         Crawler crawler = builder.build();
