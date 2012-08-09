@@ -6,18 +6,20 @@ package com.igalshilman.tinycrawler.crawler;
 
 import com.ning.http.client.AsyncHttpClient;
 import com.ning.http.client.AsyncHttpClientConfig;
+import com.sun.xml.internal.txw2.Document;
+import org.apache.log4j.Logger;
+
 import java.io.IOException;
 import java.net.URI;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 
 /**
  *
  * @author igal
  */
 public class DocumentFetcher {
-    private static final Logger logger = Logger.getLogger("TinyCrawler");
+    private static final Logger logger = Logger.getLogger(DocumentFetcher.class);
     private final TaskQueue taskQueue;
     private final AsyncHttpClientConfig clientConfig;
     private final int totalOpenConnections;
@@ -62,7 +64,6 @@ public class DocumentFetcher {
         long openConnections = taskQueue.getPendingDownloads();
 
         while (openConnections > upperLimit) {
-            logger.log(Level.INFO,"About to sleep for {0} millis",sleepTime);
             Thread.sleep(sleepTime);
             sleepTime *= 2;
             openConnections = taskQueue.getPendingDownloads();
@@ -86,22 +87,17 @@ public class DocumentFetcher {
                 final String address = uri.toString();
                 final RequestCallback cb = new RequestCallback(tsk,taskQueue);
 
-                logger.log(Level.INFO, "Trying to fetch {0}",address);
+                logger.info("Trying to fetch " + address);
                 // This is a workaround a BUG in AsyncHTTPClient of connection throttle.
                 throttleConnections();
                 taskQueue.incrementPendingDownload();
                 client.prepareGet(address).execute(cb);
 
             } catch (InterruptedException ex) {
-                logger.log(Level.SEVERE, "Interrupted.");
-            } catch (IOException ex) {
-                logger.log(Level.SEVERE, null, ex);
-            } catch (IllegalArgumentException ex) {
-               logger.log(Level.SEVERE, null, ex);
+                logger.warn( "Interrupted.");
+            } catch (Throwable ex) {
+                logger.error("Error during document fetching",ex);
             }
         }
-
-        // Okay, finished with downloading.
-        logger.log(Level.INFO, "DocumentFetcher is done.");
     }
 }

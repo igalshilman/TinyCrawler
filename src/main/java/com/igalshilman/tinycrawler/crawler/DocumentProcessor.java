@@ -9,9 +9,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.regex.Pattern;
+
+import org.apache.log4j.Logger;
 import org.apache.lucene.index.CorruptIndexException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -43,10 +43,10 @@ public class DocumentProcessor implements Runnable {
             try {
                 task = taskQueue.takeProcessingTask();
             } catch (InterruptedException ex) {
-               logger.log(Level.INFO,"DocumentProcessor is done.");
+               logger.info("DocumentProcessor is done.");
                return ;
             }
-            logger.log(Level.INFO, "Document found [{0}]\n", task.getURI());
+            logger.info("Document found " + task.getURI());
             process(task);
         }
     }
@@ -76,10 +76,8 @@ public class DocumentProcessor implements Runnable {
 
         try {
             indexWriter.addDocument(doc);
-        } catch (CorruptIndexException ex) {
-            logger.log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            logger.log(Level.SEVERE, null, ex);
+        } catch (Throwable ex) {
+            logger.error("failed adding a document to the index", ex);
         }
 
         if (task.getDepth() < maxCrawlDepth) {

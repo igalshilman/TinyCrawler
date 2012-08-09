@@ -6,8 +6,7 @@ package com.igalshilman.tinycrawler.crawler;
 
 import com.ning.http.client.AsyncCompletionHandler;
 import com.ning.http.client.Response;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -31,7 +30,7 @@ class RequestCallback extends AsyncCompletionHandler<Boolean> {
     @Override
     public void onThrowable(Throwable t) {
         accountComplition();
-        logger.log(Level.SEVERE, t.toString());
+        logger.error("Error during document download",t);
     }
 
     @Override
@@ -40,14 +39,12 @@ class RequestCallback extends AsyncCompletionHandler<Boolean> {
 
         if (res.hasResponseBody()) {
             task.setHtmlContent(res.getResponseBody());
-            logger.log(Level.INFO, "Adding document to docQueue {0}", res.getUri());
+            logger.info("Adding document to docQueue " + res.getUri());
             taskQueue.incrementPendingProcessing();
             taskQueue.addProcessingTask(task);
             return Boolean.TRUE;
         }
 
-        // We should log that we weren't fetch this document.
-        logger.log(Level.INFO, "Found URI without a body [{0}]", res.getUri());
         return Boolean.FALSE;
     }
 }

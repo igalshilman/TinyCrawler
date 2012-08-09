@@ -5,8 +5,6 @@
 package com.igalshilman.tinycrawler.crawler;
 
 import com.ning.http.client.AsyncHttpClientConfig;
-import com.ning.http.client.extra.ThrottleRequestFilter;
-import com.ning.http.client.filter.RequestFilter;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
@@ -15,8 +13,8 @@ import java.util.Collections;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+import org.apache.log4j.Logger;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.index.IndexWriter;
@@ -30,7 +28,7 @@ import org.apache.lucene.store.NIOFSDirectory;
  * @author igal
  */
 public class Crawler {
-    private static final Logger logger = Logger.getLogger("TinyCrawler");
+    private static final Logger logger = Logger.getLogger(Crawler.class);
 
     // Configurable paramters vis builder, but are final here.
     private final File indexDirectory;
@@ -107,7 +105,7 @@ public class Crawler {
             Directory fs = new NIOFSDirectory(this.indexDirectory);
             writer = new IndexWriter(fs, indexConfig);
         } catch (IOException ex) {
-            logger.log(Level.SEVERE, "Failed to create an IndexWriter. ");
+            logger.error("Failed to create an IndexWriter. ");
             throw new IllegalArgumentException("Could not initialize the index, please check the log.");
         }
         
@@ -159,13 +157,13 @@ public class Crawler {
 
         try {
             indexWriter.close();
-            logger.log(Level.INFO, "Index is closed.");
+            logger.info("Index is closed.");
         } catch (CorruptIndexException ex) {
-            logger.log(Level.SEVERE, "Failed closing the index. got{0}", ex.toString());
+            logger.error("Failed closing the index.", ex);
         } catch (IOException ex) {
-            logger.log(Level.SEVERE, "Failed closing the index. {0}", ex.toString());
+            logger.error("Failed closing the index.", ex);
         }
-        logger.log(Level.FINE, "done.");
+        logger.info("done.");
     }
 
     //
