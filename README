@@ -2,5 +2,3 @@ A little web crawler.
 based on jsoup, asynchttpclient and lucene.
 more info is coming.
 
-to build just execute ant in the root directory.
-
