@@ -99,8 +99,8 @@ public class Crawler {
    * @throws IllegalArgumentException If for some reason the we are unable to prepare the index.
    */
   private IndexWriter prepareIndexWriter() {
-    StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_31);
-    IndexWriterConfig indexConfig = new IndexWriterConfig(Version.LUCENE_31, analyzer);
+    StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
+    IndexWriterConfig indexConfig = new IndexWriterConfig(Version.LUCENE_36, analyzer);
 
     IndexWriter writer = null;
     try {
